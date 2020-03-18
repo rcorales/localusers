@@ -1,6 +1,6 @@
 class localusers {
         user { 'admin':
-                ensure      => present,
+                ensure      =>  present,
                 shell       =>  '/bin/bash',
                 home        =>  '/home/admin',
                 gid         =>  'wheel',
