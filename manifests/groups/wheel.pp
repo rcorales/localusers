@@ -1,3 +1,3 @@
-class localusers::groups:wheel {
+class localusers::groups::wheel {
 
 }
