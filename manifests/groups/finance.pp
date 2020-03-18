@@ -1,3 +1,3 @@
-class localusers::groups:finance{
+class localusers::groups::finance{
 
 }
