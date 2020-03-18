@@ -7,4 +7,13 @@ class localusers {
                 managehome  =>  true,
                 password    =>  '$6$c6MzfrYi$KZuYcOh4XrVmd6LbeL/PK0UeLslgPgZADc2Vbh34UWBJe6Z3XCm49pN9jBmXP1T.7uPN6xn20JnelOOkqZu/7/',
         }
+
+        user { 'rcorales':
+                ensure      =>  present,
+                shell       =>  '/bin/bash',
+                home        =>  '/home/admin',
+                groups      =>   ['wheel', 'finance'],
+                managehome  =>  true,
+                password    =>  '$6$c6MzfrYi$KZuYcOh4XrVmd6LbeL/PK0UeLslgPgZADc2Vbh34UWBJe6Z3XCm49pN9jBmXP1T.7uPN6xn20JnelOOkqZu/7/',
+        }
 }
